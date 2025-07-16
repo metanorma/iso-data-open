@@ -114,7 +114,6 @@
   - 45202
   - 45240
   - 45270
-  - 45306
   - 45314
   - 45316
   - 45342
@@ -127,13 +126,14 @@
   - 45050
   - 45072
   - 45086
-  - 45252
   - 45332
   - 45374
   - 45382
   - 601355
   - 5013818
   - 10778243
+  - 45252
+  - 45306
   pMembers:
   - id: 1485
     acronym: SABS
@@ -219,6 +219,8 @@
     acronym: GOST R
   - id: 2188
     acronym: ANSI
+  - id: 2215
+    acronym: ZABS
   - id: 269997
     acronym: ABNORM
   - id: 308829
@@ -1558,6 +1560,10 @@
     reference: ISO/IEC JTC 1/SC 41
   - id: 10778243
     reference: ISO/IEC JTC 1/SC 44
+  - id: 601355
+    reference: ISO/IEC JTC 1/SC 38
+  - id: 45306
+    reference: ISO/IEC JTC 1/SC 27
   - id: 45392
     reference: ISO/IEC JTC 1/SC 36
   organizationLiaisons:
@@ -1708,6 +1714,8 @@
     acronym: DSM
   - id: 1954
     acronym: DGN
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 1998
@@ -1787,8 +1795,6 @@
     acronym: MSB
   - id: 1950
     acronym: GEOSTM
-  - id: 1982
-    acronym: SON
   - id: 2017
     acronym: PSQCA
   - id: 2054
@@ -7369,6 +7375,8 @@
     acronym: KEBS
   - id: 1911
     acronym: DSM
+  - id: 1982
+    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2041
@@ -9139,8 +9147,6 @@
     acronym: INSO
   - id: 1815
     acronym: NSAI
-  - id: 1819
-    acronym: SII
   - id: 1965
     acronym: MASM
   - id: 1998
@@ -9700,7 +9706,7 @@
   creationDate: '1947-01-01'
   scope:
     en: |-
-      <p>Standardization of construction of boilers and pressure vessels.</p>
+      <p>Standardization of construction and performance of boilers and pressure vessels.</p>
       <p>Excluded:</p>
       <ul>
       <li>railway and marine boilers covered by ISO/TC 8;</li>
@@ -9710,11 +9716,15 @@
       <li>personal safety equipment covered by ISO/TC 94;</li>
       <li>components of rotating or reciprocating devices;</li>
       <li>nuclear pressure equipment covered by ISO/TC 85;</li>
-      <li>piping systems;</li>
+      <li>piping systems covered by ISO/TC 67;</li>
       <li>cryogenic vessels covered by ISO/TC 220.</li>
+      <li>hydrogen vessels covered by ISO/TC 197;</li>
+      <li>equipment for sterilization covered by ISO/TC 198;</li>
+      <li>human occupied vessels;</li>
       </ul>
       <p><i>Note :</i></p>
-      <p>Construction is an all-inclusive term that includes design, materials, fabrication, examination, inspection, testing and conformity assessment.</p>
+      <p>Construction includes design, materials, fabrication, examination, inspection, testing andconformity assessment.</p>
+      <p> Performance includes energy efficiency of equipment and sustainability.</p>
     fr: |-
       <p>Normalisation de la construction de chaudières et récipients sous pression.</p>
       <p>À l'exclusion :</p>
@@ -12831,6 +12841,8 @@
   - id: 2172
     acronym: SE UkrNDNC
   committeeLiaisons:
+  - id: 53264
+    reference: ISO/TC 156
   - id: 50084
     reference: ISO/TC 79
   - id: 47962
@@ -12841,8 +12853,6 @@
     reference: ISO/TC 35/SC 9
   - id: 49462
     reference: ISO/TC 61/SC 13
-  - id: 53264
-    reference: ISO/TC 156
   organizationLiaisons:
   - id: 8762
     acronym: ASD-STAN
@@ -17561,8 +17571,6 @@
   - id: 2188
     acronym: ANSI
   oMembers:
-  - id: 1529
-    acronym: ASI
   - id: 1738
     acronym: AFNOR
   - id: 1965
@@ -17575,6 +17583,8 @@
     acronym: BSI
   - id: 2120
     acronym: TBS
+  - id: 1529
+    acronym: ASI
   sortKey: ISO/TC 027/~SC 004
 - id: 47332
   reference: ISO/TC 27/SC 5
@@ -17696,10 +17706,10 @@
       <li>les lubrifiants et fluides hydrauliques à base non pétrolière.</li>
       </ul>
   childrenId:
-  - 47382
   - 47442
   - 551957
   - 47414
+  - 47382
   pMembers:
   - id: 1511
     acronym: DIN
@@ -17939,6 +17949,8 @@
     acronym: CTRM
   - id: 1911
     acronym: DSM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -17978,8 +17990,6 @@
     acronym: EVS
   - id: 1734
     acronym: SFS
-  - id: 1982
-    acronym: SON
   - id: 2045
     acronym: PKN
   - id: 2049
@@ -20085,6 +20095,8 @@
   - id: 2209
     acronym: ISS
   committeeLiaisons:
+  - id: 47166
+    reference: ISO/TC 24
   - id: 54756
     reference: ISO/TC 206
   - id: 560340
@@ -20093,8 +20105,6 @@
     reference: ISO/TC 71/SC 1
   - id: 52736
     reference: ISO/TC 146/SC 2
-  - id: 47166
-    reference: ISO/TC 24
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -20146,10 +20156,10 @@
   - 47942
   - 47950
   - 560239
-  - 583916
   - 5100987
   - 6716626
   - 8619920
+  - 583916
   pMembers:
   - id: 1511
     acronym: DIN
@@ -22506,6 +22516,8 @@
   - id: 308866
     acronym: UNBS
   oMembers:
+  - id: 1489
+    acronym: ARMSTANDARD
   - id: 1516
     acronym: SASO
   - id: 1520
@@ -22576,8 +22588,6 @@
     acronym: RSB
   - id: 5304435
     acronym: BHN
-  - id: 1489
-    acronym: ARMSTANDARD
   committeeLiaisons:
   - id: 48148
     reference: ISO/TC 38
@@ -22941,6 +22951,8 @@
     acronym: NZSO
   - id: 2031
     acronym: DGNTI
+  - id: 2068
+    acronym: ASN
   - id: 2084
     acronym: SBS
   - id: 2110
@@ -23574,6 +23586,8 @@
     acronym: JSMO
   - id: 1848
     acronym: CTRM
+  - id: 1982
+    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2054
@@ -23635,8 +23649,6 @@
     acronym: DSM
   - id: 1965
     acronym: MASM
-  - id: 1982
-    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2017
@@ -24311,8 +24323,8 @@
   - 48116
   - 48124
   - 48136
-  - 297592
   - 654486
+  - 297592
   pMembers:
   - id: 1485
     acronym: SABS
@@ -25068,8 +25080,6 @@
     acronym: GOST R
   - id: 2188
     acronym: ANSI
-  - id: 299538
-    acronym: SIST
   oMembers:
   - id: 1516
     acronym: SASO
@@ -25107,6 +25117,8 @@
     acronym: STAMEQ
   - id: 2209
     acronym: ISS
+  - id: 299538
+    acronym: SIST
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
@@ -26061,6 +26073,8 @@
     acronym: SABS
   - id: 1511
     acronym: DIN
+  - id: 1537
+    acronym: BSTI
   - id: 1561
     acronym: NBN
   - id: 1635
@@ -29891,6 +29905,8 @@
     acronym: SAC
   - id: 1663
     acronym: KATS
+  - id: 1690
+    acronym: AZSTAND
   - id: 1696
     acronym: DS
   - id: 1704
@@ -29974,8 +29990,6 @@
     acronym: CSK
   - id: 1680
     acronym: HZN
-  - id: 1690
-    acronym: AZSTAND
   - id: 1700
     acronym: EOS
   - id: 1725
@@ -31112,12 +31126,6 @@
   committeeLiaisons:
   - id: 4514241
     reference: ISO/TC 276
-  - id: 50044
-    reference: ISO/TC 76
-  - id: 48858
-    reference: ISO/TC 47
-  - id: 50252
-    reference: ISO/TC 84
   - id: 47382
     reference: ISO/TC 28/SC 2
   - id: 54916
@@ -32055,6 +32063,8 @@
     acronym: UNI
   - id: 1835
     acronym: JISC
+  - id: 1854
+    acronym: KEBS
   - id: 1994
     acronym: SN
   - id: 1998
@@ -32509,6 +32519,8 @@
     acronym: UNIT
   - id: 2188
     acronym: ANSI
+  - id: 2215
+    acronym: ZABS
   oMembers:
   - id: 1489
     acronym: ARMSTANDARD
@@ -35586,7 +35598,6 @@
       <li>les aspects liés aux constructions en haute mer soumises aux exigences de
       l'OMI (ISO/TC 8).</li></ul>"
   childrenId:
-  - 49562
   - 49570
   - 49588
   - 49598
@@ -35595,6 +35606,7 @@
   - 5749612
   - 8954581
   - 49532
+  - 49562
   pMembers:
   - id: 1511
     acronym: DIN
@@ -35630,6 +35642,8 @@
     acronym: SFS
   - id: 1738
     acronym: AFNOR
+  - id: 1747
+    acronym: GSA
   - id: 1798
     acronym: BSN
   - id: 1803
@@ -35983,6 +35997,8 @@
     acronym: NEN
   - id: 2064
     acronym: BSI
+  - id: 2176
+    acronym: GOST R
   - id: 2188
     acronym: ANSI
   - id: 308866
@@ -36000,8 +36016,6 @@
     acronym: ASRO
   - id: 2133
     acronym: UNMZ
-  - id: 2176
-    acronym: GOST R
   - id: 2209
     acronym: ISS
   organizationLiaisons:
@@ -36844,6 +36858,8 @@
     acronym: ISS
   - id: 2215
     acronym: ZABS
+  - id: 288025
+    acronym: RSB
   - id: 304927
     acronym: SWASA
   - id: 308829
@@ -43941,6 +43957,8 @@
     acronym: KEBS
   - id: 1915
     acronym: AMANORM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 1998
@@ -44006,8 +44024,6 @@
     acronym: ISM
   - id: 1965
     acronym: MASM
-  - id: 1982
-    acronym: SON
   - id: 2017
     acronym: PSQCA
   - id: 2041
@@ -45567,6 +45583,8 @@
     acronym: JISC
   - id: 1848
     acronym: CTRM
+  - id: 1854
+    acronym: KEBS
   - id: 1886
     acronym: LVS
   - id: 1911
@@ -46551,9 +46569,9 @@
       nécessaire pour l''élaboration d''une approche commune de la fiabilité en liaison
       avec les comités techniques compétents. '
   childrenId:
-  - 50936
   - 50944
   - 50958
+  - 50936
   pMembers:
   - id: 1485
     acronym: SABS
@@ -46710,8 +46728,8 @@
     en: Terminology and symbols
     fr: Terminologie et symboles
   secretariat:
-    id: 1524
-    acronym: SA
+    id: 1794
+    acronym: BIS
   creationDate: '1980-01-31'
   scope:
     en: Standardization of terminology and symbols to maintain the vocabulary and
@@ -50472,8 +50490,8 @@
   childrenId:
   - 51590
   - 534959
-  - 5481448
   - 51600
+  - 5481448
   pMembers:
   - id: 1485
     acronym: SABS
@@ -50507,6 +50525,8 @@
     acronym: UNI
   - id: 1835
     acronym: JISC
+  - id: 1854
+    acronym: KEBS
   - id: 1982
     acronym: SON
   - id: 2064
@@ -50707,6 +50727,8 @@
     acronym: UNI
   - id: 1835
     acronym: JISC
+  - id: 1982
+    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2064
@@ -50728,8 +50750,6 @@
     acronym: MSZT
   - id: 1803
     acronym: INSO
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2045
@@ -50897,6 +50917,8 @@
     acronym: UNI
   - id: 1835
     acronym: JISC
+  - id: 1982
+    acronym: SON
   - id: 2064
     acronym: BSI
   - id: 2101
@@ -50914,8 +50936,6 @@
     acronym: BIS
   - id: 1803
     acronym: INSO
-  - id: 1982
-    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2133
@@ -55826,6 +55846,8 @@
     acronym: KATS
   - id: 1684
     acronym: NC
+  - id: 1690
+    acronym: AZSTAND
   - id: 1696
     acronym: DS
   - id: 1704
@@ -55895,8 +55917,6 @@
     acronym: CODINORM
   - id: 1680
     acronym: HZN
-  - id: 1690
-    acronym: AZSTAND
   - id: 1700
     acronym: EOS
   - id: 1734
@@ -61390,6 +61410,8 @@
     acronym: SIS
   - id: 2106
     acronym: SNV
+  - id: 2176
+    acronym: GOST R
   - id: 2188
     acronym: ANSI
   oMembers:
@@ -62395,8 +62417,6 @@
     acronym: BIS
   - id: 1803
     acronym: INSO
-  - id: 1819
-    acronym: SII
   - id: 1823
     acronym: UNI
   - id: 1835
@@ -62482,6 +62502,8 @@
     acronym: BSN
   - id: 1815
     acronym: NSAI
+  - id: 1819
+    acronym: SII
   - id: 1840
     acronym: SLBS
   - id: 1873
@@ -63239,6 +63261,8 @@
     reference: ISO/TC 190/SC 4
   - id: 6578018
     reference: ISO/TC 61/SC 14
+  - id: 52944
+    reference: ISO/TC 147/SC 4
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -63299,8 +63323,6 @@
     acronym: BIS
   - id: 1803
     acronym: INSO
-  - id: 1819
-    acronym: SII
   - id: 1823
     acronym: UNI
   - id: 1835
@@ -63346,6 +63368,8 @@
     acronym: IST
   - id: 1798
     acronym: BSN
+  - id: 1819
+    acronym: SII
   - id: 1854
     acronym: KEBS
   - id: 1911
@@ -63468,12 +63492,12 @@
   - id: 48474
     reference: ISO/TC 43/SC 1
   organizationLiaisons:
+  - id: 8833
+    acronym: WCO
   - id: 8887
     acronym: CELIMAC
   - id: 9807
     acronym: EURATEX
-  - id: 8833
-    acronym: WCO
   sortKey: ISO/TC 148
 - id: 53030
   reference: ISO/TC 149
@@ -65311,6 +65335,8 @@
     acronym: UNI
   - id: 1848
     acronym: CTRM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -66385,6 +66411,8 @@
     acronym: EOS
   - id: 1717
     acronym: UNE
+  - id: 1734
+    acronym: SFS
   - id: 1738
     acronym: AFNOR
   - id: 1759
@@ -66424,8 +66452,6 @@
     acronym: ICONTEC
   - id: 1721
     acronym: EVS
-  - id: 1734
-    acronym: SFS
   - id: 1784
     acronym: MSZT
   - id: 1788
@@ -67889,6 +67915,8 @@
     acronym: UNI
   - id: 1854
     acronym: KEBS
+  - id: 2054
+    acronym: IPQ
   - id: 2064
     acronym: BSI
   - id: 2168
@@ -69474,8 +69502,8 @@
       Des produits d’assistance qui sont traités par d’autres comités techniques et comités systèmes, tels que l’accès aux moyens de transport (ISO/TCs 8, 20, 22), la construction (ISO/TC 59), l’ameublement (ISO/TC 136), les implants chirurgicaux (ISO/TC 150), les prothèses et orthèses (ISO/TC 168), l’optique et la photonique (ISO/TC 172), la sécurité électrique (IEC/TC 62), les appareils de correction auditive (IEC/TC 29), les technologies de l’information et de la communication (JTC 1), et les principes de conception traités par l’ergonomie (ISO/TC 159) et les aspects systèmes de l’assistance à l’autonomie à domicile (IEC SyCAAL).</p>
   childrenId:
   - 53792
-  - 53812
   - 53832
+  - 53812
   - 608504
   pMembers:
   - id: 1485
@@ -69563,8 +69591,6 @@
     acronym: MSZT
   - id: 1788
     acronym: IST
-  - id: 1819
-    acronym: SII
   - id: 1854
     acronym: KEBS
   - id: 1897
@@ -69814,8 +69840,6 @@
     acronym: IST
   - id: 1803
     acronym: INSO
-  - id: 1819
-    acronym: SII
   - id: 2027
     acronym: NEN
   - id: 2045
@@ -69981,8 +70005,6 @@
     acronym: EOS
   - id: 1803
     acronym: INSO
-  - id: 1819
-    acronym: SII
   - id: 1911
     acronym: DSM
   - id: 2027
@@ -74185,6 +74207,8 @@
     acronym: CTRM
   - id: 1911
     acronym: DSM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -75239,6 +75263,14 @@
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
+  - id: 5243738
+    reference: ISO/TC 291
+  - id: 5391154
+    reference: ISO/TC 22/SC 37
+  - id: 53314
+    reference: ISO/TC 158
+  - id: 5391370
+    reference: ISO/TC 22/SC 41
   - id: 49040
     reference: ISO/TC 58/SC 3
   - id: 48692
@@ -75255,14 +75287,6 @@
     reference: ISO/TC 22
   - id: 582777
   - id: 55078
-  - id: 5243738
-    reference: ISO/TC 291
-  - id: 5391154
-    reference: ISO/TC 22/SC 37
-  - id: 53314
-    reference: ISO/TC 158
-  - id: 5391370
-    reference: ISO/TC 22/SC 41
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -77321,8 +77345,6 @@
     acronym: PKN
   - id: 2058
     acronym: ASRO
-  - id: 2074
-    acronym: SSC
   - id: 2110
     acronym: UNMS SR
   - id: 2116
@@ -77397,8 +77419,8 @@
   - 54836
   - 54846
   - 54854
-  - 546318
   - 54818
+  - 546318
   pMembers:
   - id: 1485
     acronym: SABS
@@ -77772,6 +77794,8 @@
     acronym: ECOS (Environment)
   - id: 340190
     acronym: WBCSD
+  - id: 534768
+    acronym: IIOA
   - id: 537132
     acronym: UNFCCC
   - id: 544165
@@ -79068,6 +79092,8 @@
     acronym: KATS
   - id: 1667
     acronym: INTECO
+  - id: 1674
+    acronym: CODINORM
   - id: 1690
     acronym: AZSTAND
   - id: 1696
@@ -79187,8 +79213,6 @@
     acronym: ISBIH
   - id: 1640
     acronym: CYS
-  - id: 1674
-    acronym: CODINORM
   - id: 1680
     acronym: HZN
   - id: 1770
@@ -80918,6 +80942,8 @@
     acronym: SIS
   - id: 2106
     acronym: SNV
+  - id: 2176
+    acronym: GOST R
   - id: 2188
     acronym: ANSI
   oMembers:
@@ -81719,6 +81745,8 @@
     acronym: ASI
   - id: 1561
     acronym: NBN
+  - id: 1579
+    acronym: ABNT
   - id: 1619
     acronym: SCC
   - id: 1635
@@ -81776,8 +81804,6 @@
     acronym: SA
   - id: 1537
     acronym: BSTI
-  - id: 1579
-    acronym: ABNT
   - id: 1597
     acronym: BDS
   - id: 1696
@@ -81994,6 +82020,8 @@
     acronym: AMANORM
   - id: 1931
     acronym: IMANOR
+  - id: 1982
+    acronym: SON
   - id: 1988
     acronym: NBSM
   - id: 1994
@@ -82057,8 +82085,6 @@
     acronym: DGN
   - id: 1965
     acronym: MASM
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2007
@@ -82435,6 +82461,8 @@
       et équipements pertinents, afin de fournir aux acheteurs, fournisseurs et consommateurs
       de produits touristiques des critères leur permettant de faire des choix avisés.
   pMembers:
+  - id: 1485
+    acronym: SABS
   - id: 1511
     acronym: DIN
   - id: 1516
@@ -82559,8 +82587,6 @@
     acronym: BBSQ
   - id: 10320054
     acronym: AMNOR
-  - id: 1485
-    acronym: SABS
   oMembers:
   - id: 1489
     acronym: ARMSTANDARD
@@ -83049,6 +83075,8 @@
     acronym: GOST R
   - id: 2188
     acronym: ANSI
+  - id: 2215
+    acronym: ZABS
   - id: 299538
     acronym: SIST
   - id: 308878
@@ -83365,6 +83393,8 @@
     acronym: LST
   - id: 1911
     acronym: DSM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -84369,6 +84399,8 @@
     acronym: UNE
   - id: 1738
     acronym: AFNOR
+  - id: 1747
+    acronym: GSA
   - id: 1794
     acronym: BIS
   - id: 1803
@@ -84379,6 +84411,8 @@
     acronym: SII
   - id: 1823
     acronym: UNI
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -84486,6 +84520,8 @@
     acronym: SII
   - id: 1835
     acronym: JISC
+  - id: 1982
+    acronym: SON
   - id: 2054
     acronym: IPQ
   - id: 2106
@@ -85979,8 +86015,6 @@
     acronym: BIS
   - id: 1803
     acronym: INSO
-  - id: 1819
-    acronym: SII
   - id: 1823
     acronym: UNI
   - id: 1835
@@ -85997,6 +86031,8 @@
     acronym: MSB
   - id: 1965
     acronym: MASM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2036
@@ -86060,8 +86096,6 @@
     acronym: LIBNOR
   - id: 1954
     acronym: DGN
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2017
@@ -87102,6 +87136,8 @@
     reference: ISO/IEC JTC 1/SC 37
   - id: 5259148
     reference: ISO/TC 292
+  - id: 51286
+    reference: ISO/TC 106/SC 3
   - id: 54998
   - id: 45306
     reference: ISO/IEC JTC 1/SC 27
@@ -88248,6 +88284,10 @@
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
+  - id: 5052041
+    reference: ISO/TC 82/SC 7
+  - id: 6170397
+    reference: ISO/PC 305
   - id: 299764
     reference: ISO/TC 224
   - id: 52834
@@ -88256,10 +88296,6 @@
     reference: ISO/TC 275
   - id: 54328
     reference: ISO/TC 190
-  - id: 5052041
-    reference: ISO/TC 82/SC 7
-  - id: 6170397
-    reference: ISO/PC 305
   organizationLiaisons:
   - id: 5122877
     acronym: WFEO
@@ -92764,6 +92800,8 @@
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
+  - id: 49650
+    reference: ISO/TC 68
   - id: 6794475
     reference: ISO/IEC JTC 1/SC 42
   - id: 45332
@@ -92782,13 +92820,11 @@
     reference: ISO/TC 315
   - id: 45306
     reference: ISO/IEC JTC 1/SC 27
-  - id: 49650
-    reference: ISO/TC 68
   organizationLiaisons:
-  - id: 10067
-    acronym: GS1
   - id: 8970810
     acronym: ICDPASO
+  - id: 10067
+    acronym: GS1
   sortKey: ISO/TC 321
 - id: 7203746
   reference: ISO/TC 322
@@ -93148,6 +93184,8 @@
     acronym: STAMEQ
   - id: 2209
     acronym: ISS
+  - id: 2215
+    acronym: ZABS
   - id: 269997
     acronym: ABNORM
   - id: 288025
@@ -93763,8 +93801,6 @@
       <p>TC 331 Biodiversity will work closely with related committees (e.g. ISO/TC 190 Soil quality, ISO/TC 147 Water quality, ISO/TC 276 Biotechnology, ISO/TC 34 Food products) in order to identify standardization needs and gaps, and collaborate with other organizations to avoid duplications and overlapping standardization activities.</p>
     fr: "."
   pMembers:
-  - id: 1499
-    acronym: IANOR
   - id: 1511
     acronym: DIN
   - id: 1516
@@ -93851,6 +93887,8 @@
     acronym: OCC
   - id: 548909
     acronym: AGANOR
+  - id: 1499
+    acronym: IANOR
   oMembers:
   - id: 1485
     acronym: SABS
@@ -95533,6 +95571,8 @@
     acronym: INSO
   - id: 1815
     acronym: NSAI
+  - id: 1854
+    acronym: KEBS
   - id: 1954
     acronym: DGN
   - id: 2031
@@ -96122,6 +96162,8 @@
     acronym: INSO
   - id: 1835
     acronym: JISC
+  - id: 1921
+    acronym: MBS
   - id: 2027
     acronym: NEN
   - id: 2031
