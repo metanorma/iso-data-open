@@ -115,18 +115,15 @@
   - 45240
   - 45270
   - 45314
-  - 45316
   - 45342
   - 45392
   - 313770
   - 654019
   - 6483279
-  - 6794475
   - 9082407
   - 45050
   - 45072
   - 45086
-  - 45332
   - 45374
   - 45382
   - 5013818
@@ -134,6 +131,9 @@
   - 45252
   - 601355
   - 45306
+  - 45316
+  - 45332
+  - 6794475
   pMembers:
   - id: 1485
     acronym: SABS
@@ -1656,6 +1656,8 @@
     acronym: ASI
   - id: 1561
     acronym: NBN
+  - id: 1579
+    acronym: ABNT
   - id: 1619
     acronym: SCC
   - id: 1635
@@ -1765,8 +1767,6 @@
     acronym: NSI
   - id: 1575
     acronym: INDOCAL
-  - id: 1579
-    acronym: ABNT
   - id: 1597
     acronym: BDS
   - id: 1603
@@ -2166,6 +2166,8 @@
   - id: 2188
     acronym: ANSI
   oMembers:
+  - id: 1485
+    acronym: SABS
   - id: 1489
     acronym: ARMSTANDARD
   - id: 1516
@@ -2200,8 +2202,6 @@
     acronym: UNMZ
   - id: 2209
     acronym: ISS
-  - id: 1485
-    acronym: SABS
   committeeLiaisons:
   - id: 52214
     reference: ISO/TC 130
@@ -2281,6 +2281,8 @@
     acronym: IETF
   - id: 8505207
     acronym: IDEA Digital
+  - id: 11377989
+    acronym: Ultra HD Forum
   sortKey: ISO/IEC JTC 001/~SC 029
 - id: 45332
   reference: ISO/IEC JTC 1/SC 31
@@ -2395,6 +2397,8 @@
     acronym: UNMZ
   - id: 2139
     acronym: TISI
+  - id: 2149
+    acronym: TTBS
   - id: 2162
     acronym: MSST
   - id: 2209
@@ -4119,6 +4123,8 @@
     acronym: EC - European Commission
   - id: 8389
     acronym: HL7
+  - id: 9006
+    acronym: ETSI
   - id: 9073
     acronym: EUROCAE
   - id: 9601
@@ -4303,7 +4309,7 @@
   - id: 55000
   sortKey: ISO/IEC JTC 001/~SC 044
 - id: 11064026
-  reference: ISO/IEC/JTC 4
+  reference: ISO/IEC JTC 4
   status: Active
   title:
     en: Smart and sustainable cities and communities
@@ -4372,6 +4378,8 @@
     acronym: SNV
   - id: 2176
     acronym: GOST R
+  - id: 2188
+    acronym: ANSI
   oMembers:
   - id: 1529
     acronym: ASI
@@ -4397,9 +4405,7 @@
     acronym: SIS
   - id: 2133
     acronym: UNMZ
-  - id: 2188
-    acronym: ANSI
-  sortKey: ISO/IEC/JTC 004
+  sortKey: ISO/IEC JTC 004
 - id: 562919
   reference: ISO/PC 245
   status: Active
@@ -17938,6 +17944,8 @@
     reference: ISO/TC 48
   - id: 47614
     reference: ISO/TC 30/SC 5
+  - id: 47936
+    reference: ISO/TC 34/SC 11
   - id: 47576
     reference: ISO/TC 30
   - id: 47592
@@ -20020,6 +20028,8 @@
   - id: 2209
     acronym: ISS
   committeeLiaisons:
+  - id: 47166
+    reference: ISO/TC 24
   - id: 54756
     reference: ISO/TC 206
   - id: 560340
@@ -20028,8 +20038,6 @@
     reference: ISO/TC 71/SC 1
   - id: 52736
     reference: ISO/TC 146/SC 2
-  - id: 47166
-    reference: ISO/TC 24
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -25886,8 +25894,6 @@
       et d'étiquetages qualité des fibres et des fils.
   parentId: 48148
   pMembers:
-  - id: 1511
-    acronym: DIN
   - id: 1537
     acronym: BSTI
   - id: 1561
@@ -25940,6 +25946,8 @@
     acronym: TISI
   - id: 2188
     acronym: ANSI
+  - id: 1511
+    acronym: DIN
   oMembers:
   - id: 1485
     acronym: SABS
@@ -29159,10 +29167,10 @@
       <p>Note:</p>
       <p>Par accord, les normes relatives aux élastomères thermoplastiques sont élaborées et tenues à jour par l'ISO / TC45 et l'ISO / TC 61.</p>
   childrenId:
-  - 48704
-  - 48716
   - 48730
   - 48692
+  - 48704
+  - 48716
   pMembers:
   - id: 1485
     acronym: SABS
@@ -29427,6 +29435,9 @@
     reference: ISO/TC 44/SC 8
   - id: 52266
     reference: ISO/TC 131/SC 4
+  organizationLiaisons:
+  - id: 9202
+    acronym: WLGA
   sortKey: ISO/TC 045/~SC 001
 - id: 48704
   reference: ISO/TC 45/SC 2
@@ -29537,6 +29548,9 @@
     reference: ISO/TC 61/SC 2
   - id: 51402
     reference: ISO/TC 108
+  organizationLiaisons:
+  - id: 9202
+    acronym: WLGA
   sortKey: ISO/TC 045/~SC 002
 - id: 48716
   reference: ISO/TC 45/SC 3
@@ -29602,6 +29616,8 @@
     acronym: DSM
   - id: 2027
     acronym: NEN
+  - id: 2041
+    acronym: BPS
   - id: 2064
     acronym: BSI
   - id: 2091
@@ -29631,8 +29647,6 @@
     acronym: KEBS
   - id: 1901
     acronym: ISC
-  - id: 2041
-    acronym: BPS
   - id: 2045
     acronym: PKN
   - id: 2058
@@ -31270,6 +31284,8 @@
     acronym: DS
   - id: 1717
     acronym: UNE
+  - id: 1734
+    acronym: SFS
   - id: 1738
     acronym: AFNOR
   - id: 1776
@@ -31299,8 +31315,6 @@
     acronym: SASO
   - id: 1663
     acronym: KATS
-  - id: 1734
-    acronym: SFS
   - id: 1803
     acronym: INSO
   - id: 2133
@@ -53830,8 +53844,6 @@
   - id: 308866
     acronym: UNBS
   oMembers:
-  - id: 1529
-    acronym: ASI
   - id: 1537
     acronym: BSTI
   - id: 1629
@@ -53876,6 +53888,8 @@
     acronym: SE UkrNDNC
   - id: 2209
     acronym: ISS
+  - id: 1529
+    acronym: ASI
   committeeLiaisons:
   - id: 54972
     reference: ISO/TC 216
@@ -57692,6 +57706,8 @@
   pMembers:
   - id: 1511
     acronym: DIN
+  - id: 1579
+    acronym: ABNT
   - id: 1635
     acronym: SAC
   - id: 1738
@@ -57719,8 +57735,6 @@
   - id: 2188
     acronym: ANSI
   oMembers:
-  - id: 1579
-    acronym: ABNT
   - id: 1597
     acronym: BDS
   - id: 1663
@@ -58146,6 +58160,8 @@
   - id: 8042280
     acronym: ATNOR
   committeeLiaisons:
+  - id: 54346
+    reference: ISO/TC 190/SC 3
   - id: 47924
     reference: ISO/TC 34/SC 10
   - id: 47148
@@ -58158,8 +58174,6 @@
     reference: ISO/TC 24
   - id: 49742
     reference: ISO/TC 69
-  - id: 54346
-    reference: ISO/TC 190/SC 3
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -62688,6 +62702,8 @@
       parameters in water samples including sediments of aquatic systems"
   parentId: 52834
   pMembers:
+  - id: 1485
+    acronym: SABS
   - id: 1511
     acronym: DIN
   - id: 1524
@@ -62750,8 +62766,6 @@
     acronym: ANSI
   - id: 308894
     acronym: OCC
-  - id: 1485
-    acronym: SABS
   oMembers:
   - id: 1489
     acronym: ARMSTANDARD
@@ -64486,6 +64500,8 @@
     acronym: KATS
   - id: 1696
     acronym: DS
+  - id: 1776
+    acronym: ILNAS
   - id: 1794
     acronym: BIS
   - id: 1803
@@ -64531,8 +64547,6 @@
     acronym: AFNOR
   - id: 1770
     acronym: ITCHKSAR
-  - id: 1776
-    acronym: ILNAS
   - id: 1784
     acronym: MSZT
   - id: 1788
@@ -68709,11 +68723,11 @@
       fibres optiques pour la télécommunication (CEI / CE 86) et de la sécurité  électrique
       des éléments optiques, et de l''éclairage secondaire. </li></ul> '
   childrenId:
-  - 53688
   - 53700
+  - 53732
+  - 53688
   - 53708
   - 53720
-  - 53732
   - 53738
   - 53764
   pMembers:
@@ -68852,6 +68866,8 @@
     acronym: BIS
   - id: 1835
     acronym: JISC
+  - id: 1982
+    acronym: SON
   - id: 2058
     acronym: ASRO
   - id: 2064
@@ -68873,8 +68889,6 @@
     acronym: UNE
   - id: 1803
     acronym: INSO
-  - id: 1982
-    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2041
@@ -69015,6 +69029,8 @@
     acronym: KATS
   - id: 1835
     acronym: JISC
+  - id: 1982
+    acronym: SON
   - id: 2058
     acronym: ASRO
   - id: 2064
@@ -69034,8 +69050,6 @@
     acronym: AFNOR
   - id: 1803
     acronym: INSO
-  - id: 1982
-    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2041
@@ -69129,9 +69143,6 @@
     reference: ISO/TC 276/SC 1
   - id: 53738
     reference: ISO/TC 172/SC 7
-  organizationLiaisons:
-  - id: 8184068
-    acronym: PROSCOPE
   sortKey: ISO/TC 172/~SC 005
 - id: 53732
   reference: ISO/TC 172/SC 6
@@ -69261,6 +69272,8 @@
     acronym: UNI
   - id: 1835
     acronym: JISC
+  - id: 1982
+    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2054
@@ -69282,8 +69295,6 @@
     acronym: EOS
   - id: 1803
     acronym: INSO
-  - id: 1982
-    acronym: SON
   - id: 2045
     acronym: PKN
   - id: 2058
@@ -69350,6 +69361,8 @@
     acronym: JISC
   - id: 1897
     acronym: LST
+  - id: 1982
+    acronym: SON
   - id: 2064
     acronym: BSI
   - id: 2176
@@ -69367,8 +69380,6 @@
     acronym: NSAI
   - id: 1819
     acronym: SII
-  - id: 1982
-    acronym: SON
   - id: 2027
     acronym: NEN
   - id: 2041
@@ -70265,6 +70276,8 @@
     acronym: DGN
   - id: 1965
     acronym: MASM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 1998
@@ -70378,8 +70391,6 @@
     acronym: ISM
   - id: 1950
     acronym: GEOSTM
-  - id: 1982
-    acronym: SON
   - id: 2007
     acronym: DGSM
   - id: 2031
@@ -73307,6 +73318,8 @@
     acronym: IMANOR
   - id: 1954
     acronym: DGN
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -73358,8 +73371,6 @@
     acronym: KEBS
   - id: 1938
     acronym: ISM
-  - id: 1982
-    acronym: SON
   - id: 2045
     acronym: PKN
   - id: 2058
@@ -75187,6 +75198,14 @@
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
+  - id: 5243738
+    reference: ISO/TC 291
+  - id: 5391154
+    reference: ISO/TC 22/SC 37
+  - id: 53314
+    reference: ISO/TC 158
+  - id: 5391370
+    reference: ISO/TC 22/SC 41
   - id: 49040
     reference: ISO/TC 58/SC 3
   - id: 48692
@@ -75203,14 +75222,6 @@
     reference: ISO/TC 22
   - id: 582777
   - id: 55078
-  - id: 5243738
-    reference: ISO/TC 291
-  - id: 5391154
-    reference: ISO/TC 22/SC 37
-  - id: 53314
-    reference: ISO/TC 158
-  - id: 5391370
-    reference: ISO/TC 22/SC 41
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -76147,12 +76158,12 @@
   - id: 2133
     acronym: UNMZ
   organizationLiaisons:
-  - id: 9286
-    acronym: VAMAS
   - id: 9672
     acronym: IUPAC
   - id: 9676
     acronym: IUVSTA
+  - id: 9286
+    acronym: VAMAS
   sortKey: ISO/TC 201/~SC 006
 - id: 54662
   reference: ISO/TC 201/SC 7
@@ -77343,8 +77354,8 @@
   - 54854
   - 54818
   - 54836
-  - 54846
   - 546318
+  - 54846
   pMembers:
   - id: 1485
     acronym: SABS
@@ -78593,6 +78604,8 @@
     acronym: DGN
   - id: 1965
     acronym: MASM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2017
@@ -78656,8 +78669,6 @@
     acronym: LVS
   - id: 1897
     acronym: LST
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2031
@@ -83159,6 +83170,8 @@
     acronym: DSM
   - id: 1931
     acronym: IMANOR
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -83202,8 +83215,6 @@
     acronym: MCCAA
   - id: 1944
     acronym: MSB
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2036
@@ -84757,6 +84768,8 @@
     acronym: KEBS
   - id: 1897
     acronym: LST
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2017
@@ -84818,8 +84831,6 @@
     acronym: KYRGYZST
   - id: 1965
     acronym: MASM
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2036
@@ -85765,6 +85776,8 @@
     acronym: LST
   - id: 1911
     acronym: DSM
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -85806,8 +85819,6 @@
     acronym: INSO
   - id: 1823
     acronym: UNI
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2058
@@ -88212,6 +88223,10 @@
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
+  - id: 5052041
+    reference: ISO/TC 82/SC 7
+  - id: 6170397
+    reference: ISO/PC 305
   - id: 299764
     reference: ISO/TC 224
   - id: 52834
@@ -88220,10 +88235,6 @@
     reference: ISO/TC 275
   - id: 54328
     reference: ISO/TC 190
-  - id: 5052041
-    reference: ISO/TC 82/SC 7
-  - id: 6170397
-    reference: ISO/PC 305
   organizationLiaisons:
   - id: 5122877
     acronym: WFEO
@@ -89611,6 +89622,8 @@
     acronym: IMANOR
   - id: 1944
     acronym: MSB
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2027
@@ -89676,8 +89689,6 @@
     acronym: DGN
   - id: 1965
     acronym: MASM
-  - id: 1982
-    acronym: SON
   - id: 1998
     acronym: NZSO
   - id: 2017
@@ -90832,6 +90843,8 @@
     acronym: DGN
   - id: 1978
     acronym: INNOQ
+  - id: 1982
+    acronym: SON
   - id: 1994
     acronym: SN
   - id: 2045
@@ -90905,8 +90918,6 @@
     acronym: GEOSTM
   - id: 1965
     acronym: MASM
-  - id: 1982
-    acronym: SON
   - id: 2017
     acronym: PSQCA
   - id: 2027
@@ -92991,6 +93002,8 @@
     acronym: NBN
   - id: 1565
     acronym: IBNORCA
+  - id: 1575
+    acronym: INDOCAL
   - id: 1579
     acronym: ABNT
   - id: 1619
@@ -93138,8 +93151,6 @@
     acronym: BELST
   - id: 1569
     acronym: NSI
-  - id: 1575
-    acronym: INDOCAL
   - id: 1591
     acronym: BBN
   - id: 1597
@@ -93507,6 +93518,8 @@
     acronym: SAC
   - id: 1644
     acronym: ICONTEC
+  - id: 1700
+    acronym: EOS
   - id: 1717
     acronym: UNE
   - id: 1738
@@ -93528,8 +93541,6 @@
   oMembers:
   - id: 1640
     acronym: CYS
-  - id: 1700
-    acronym: EOS
   - id: 1734
     acronym: SFS
   - id: 1835
